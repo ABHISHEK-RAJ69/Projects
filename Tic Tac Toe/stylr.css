@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #BFDBF7;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.board{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 0 5px rgba(97, 92, 141, 0.863);
+    font-size: 10vmin;
+}
+.star{
+    background-color: #022B3A;
+    color: #449DD1;
+    text-shadow: 0 0 10px #01b6f8;
+}
+.skull{
+    color: #022B3A;
+    text-shadow: 0 0 10px #ffffff ;
+    background-color: #449DD1;
+}   
+.nav-b{
+    padding: 0.5em;
+    font-size: 1.25rem;
+    background-color: #449DD1;
+    border: none;
+    border-radius: 5%;
+} 
+.nav-b:hover{
+    background-color: #022B3A;
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45vb;
+}
+h1{
+    text-decoration: underline;
+    font-size: 50px;
+}
+.sboard{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#celebration{
+    height:7vh;
+    width:60vb;
+    display: flex;
+    background-color: #449DD1;
+    border-radius: 5px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    
+}
+#celebration p{
+    color: #022B3A;
+    font-size: large;
+}
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    visibility: hidden;
+}
