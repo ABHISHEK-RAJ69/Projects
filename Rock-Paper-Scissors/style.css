@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    /* background-image: linear-gradient(#3D52A0,#7071E6,#8697C4,#ADBBDA,#EDE8F5); */
+    /* background-image: linear-gradient(#8697C4,#ADBBDA,#EDE8F5);*/
+}
+h1{
+    color: #3d52a0;
+    text-align: center;
+    font-size: 10vb;
+    text-shadow: 0 0 2vb white;
+    padding: 2vh;
+}
+.choices{
+    display: flex;
+    gap :5vb;
+
+
+}
+.choices{
+    border-radius: 50%;
+    height: 30vh;
+    
+    
+}
+img{
+    height: 30vh;border-radius: 50%;
+}
