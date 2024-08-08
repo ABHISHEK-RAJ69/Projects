@@ -4,7 +4,7 @@
     text-align: center;
 }
 body{
-    /* background-image: linear-gradient(#3D52A0,#7071E6,#8697C4,#ADBBDA,#EDE8F5); */
+    background-image: linear-gradient(#3D52A0,#7071E6,#8697C4,#ADBBDA,#EDE8F5);
     background-image: linear-gradient(#8697C4,#ADBBDA,#EDE8F5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,6 +78,7 @@ img{
     display: inline-block;
     border-radius: 2vb;
     padding: 1vb;
+    width: 40vb;
 }
 #msg{
     font-size: 6vh;
@@ -87,4 +88,17 @@ img{
 }
 .msg{
     display: flex;
+    font-size: 10vh;
+}
+.nav-b{
+    padding: 0.5em;
+    font-size: 1.25rem;
+    background-color: #3d52a0;
+    border: none;
+    border-radius: 5%;
+    margin-top: 2vh;
+} 
+.nav-b:hover{
+    background-color: #3d52a0;
+    color: white;
 }
