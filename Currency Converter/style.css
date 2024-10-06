@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #DCDCDD;
+}
+h1{
+    font-size: 10vh;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#C5C3C6;
+}
+.container{
+    background-color: #46494C;
+    padding: 3rem;
+    height: 70vh;
+    border-radius: 2rem;
+
+}
+.box{
+    width: 125vb;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+.amount input{
+    font-size: 4vh;
+    margin: 2vh;
+    color: black;
+    padding-left: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    height: 6vh;
+}
+.dropdown{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    
+}
+form select ,button{
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 3vh;
+    color: #253237;
+}
+form select{
+    width: 15vh;
+    color: #253237;
+    height: 5vh;
+    border: none;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.select-container{
+    width: 30vb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 ;
+}
+button{
+    cursor: pointer;
+    height: 5vh;
+    color: #253237;
+    width: 60%;
+    height: 7vh;
+    font-weight: 700;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.from, .to{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vb;
+
+}
+#Exchange{
+    text-align: center;
+    font-size: 5vh;
+}
+form select{
+    margin-left: 1rem;
+
+}
+i{
+    font-size: 2rem;
+    margin: 0 1rem ;
+}
